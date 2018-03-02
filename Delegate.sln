@@ -81,6 +81,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.4.8. Anonymous Methods", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.4.9. anonymous method delegate invocation", "9.4.9. anonymous method delegate invocation\9.4.9. anonymous method delegate invocation.csproj", "{3ABA8F66-2E36-40F9-8C2B-1B32E9843B5C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.6.delegate parameter( 2 )", "9.6.delegate parameter( 2 )", "{1E310AB9-E473-4185-852D-D549F211E2EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.6.1. Use delegate as the function parameter", "9.6.1. Use delegate as the function parameter\9.6.1. Use delegate as the function parameter.csproj", "{1C5BFB9F-F1F5-4E9F-A2CE-C44486317007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.6.2. Using a delegate to choose the right function to call", "9.6.2. Using a delegate to choose the right function to call\9.6.2. Using a delegate to choose the right function to call.csproj", "{249BCE00-061F-4F61-9B73-D2CB584CA30A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +225,14 @@ Global
 		{3ABA8F66-2E36-40F9-8C2B-1B32E9843B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ABA8F66-2E36-40F9-8C2B-1B32E9843B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ABA8F66-2E36-40F9-8C2B-1B32E9843B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5BFB9F-F1F5-4E9F-A2CE-C44486317007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5BFB9F-F1F5-4E9F-A2CE-C44486317007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5BFB9F-F1F5-4E9F-A2CE-C44486317007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5BFB9F-F1F5-4E9F-A2CE-C44486317007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249BCE00-061F-4F61-9B73-D2CB584CA30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249BCE00-061F-4F61-9B73-D2CB584CA30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249BCE00-061F-4F61-9B73-D2CB584CA30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249BCE00-061F-4F61-9B73-D2CB584CA30A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +270,8 @@ Global
 		{F5A2D818-7EE6-4669-94DC-FFE957565F40} = {4EC1C8B8-8946-4B93-A2B8-40FAE7F6D5B8}
 		{F10C4F00-6A3C-4B11-9F28-91831CE60EAB} = {4EC1C8B8-8946-4B93-A2B8-40FAE7F6D5B8}
 		{3ABA8F66-2E36-40F9-8C2B-1B32E9843B5C} = {4EC1C8B8-8946-4B93-A2B8-40FAE7F6D5B8}
+		{1C5BFB9F-F1F5-4E9F-A2CE-C44486317007} = {1E310AB9-E473-4185-852D-D549F211E2EB}
+		{249BCE00-061F-4F61-9B73-D2CB584CA30A} = {1E310AB9-E473-4185-852D-D549F211E2EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {396ED6B8-5483-418B-8ED9-8EEDA7454C63}
