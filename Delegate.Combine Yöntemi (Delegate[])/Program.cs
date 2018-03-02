@@ -32,7 +32,7 @@ class MainClass
 
         strOp = new StrMod(removeSpaces);
         str = strOp("This is a test.");
-        x
+        
         strOp = new StrMod(reverse);
         str = strOp("This is a test.");
     }
